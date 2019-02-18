@@ -66,6 +66,13 @@ function fancyAlert(arg) {
 }
 ```
 
+## 테이블 만들기
+table1 | table2
+-------|-------
+content1 | content2
+content3 | content4
+
+
 ## 취소 선
 ~~이 글은 삭제함~~
 
