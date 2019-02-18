@@ -15,13 +15,45 @@ _이탈릭체 사용_
 __볼드체사용__
 
 강조하고싶을때 **강조** 이렇게사용
+
+## 번호, 목록 매기기
+1. 하나
+2. 둘
+3. 셋
+
+과일
+- [ ] 사과
+  - 빨간색
+  - 아침에 먹는게 좋음
+- [x] 바나나
+  - 노란색
+  - 길쭉함
+- 포도
+  - 파란색
+  - 알맹이
  
-## 이미지사용
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 
 
-## 구문강조
-### 강조됨
+## 타인의 말을 인용할 시
+> There is no reason not to follow your heart. 너의 마음의 뜻을 안 따라갈 이유가 없다
+> -Steve jobs
+
+## 코드 입력 시 (인용 시) 가시화하는 방법
+1. 네 칸 들여쓰기 하기
+    
+    if (isAwesome){
+     return true
+    }
+    
+2. 코드 펜싱
+    
+```
+if (isAwesome){
+  return true
+}
+```
+    
+3. 구문 강조 (언어를 포함시켜 작성)
 ```javascript
 function fancyAlert(arg) {
   if(arg) {
@@ -29,13 +61,7 @@ function fancyAlert(arg) {
   }
 }
 ```
-### 강조안된 일반 구문
-javascript
-function fancyAlert(arg) {
-  if(arg) {
-    $.facebox({div:'#foo'})
-  }
-}
+
 
 ## URL 자동링크
 http://www.github.com/
@@ -44,3 +70,6 @@ http://www.github.com/
 :laughing:
 :smiley:
 :kissing_heart:
+
+## 이미지사용
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
